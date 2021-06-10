@@ -1,0 +1,418 @@
+/* alles wat je aan de body geeft, geldt voor hele pagina */
+body {
+    background:#273582;
+    font-family: 'niveau-grotesk', sans-serif;
+    font-size: 20px;
+}
+
+/* dit is de "clear" manier van will */
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    max-width: 984px;
+    margin: 0 auto;
+    color: #F3D10E;
+}
+
+/* de section moet uit de main omdat de achtergrond van de section groter is dan main,
+Ik heb een soort eigen main hierin gezet die dezelfde breedte als de main heeft.*/
+section {
+    width: 100vw;
+    background-color: #8FD3F6;
+    color: #F3D10E;
+    padding-top: 10px;
+    margin-bottom: 20vh;
+    margin-top: 250px;
+    
+}
+
+h1,h2,h3,h4 {
+    font-family: 'variex', sans-serif;
+}
+h1{
+    font-size: 2rem;
+    
+}
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+p {
+    color: #273582;
+}
+
+.homefoto{
+    width: 100%;
+    height: auto;
+}
+
+.videojs-background-wrap {
+    position:absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top:0;
+    left:0;
+    z-index: -998;
+
+}
+video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+img {
+    display: block;
+    width: 206px;
+    height: 63px;
+}
+
+
+.navigation{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom:30px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    color: #F3D10E;
+    font-size: 1.5em;
+    
+  }
+
+.navigation img{
+    margin-left: 150px;
+}
+  
+ .headertekst{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 60px;
+    z-index: 1;
+    
+} 
+
+ul {
+    text-align: right;
+}
+
+.headertekst li {
+    padding: 70px;
+    display: inline;
+    text-align: right;
+    margin-right: 100px;
+}
+.kasteel{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background: #8FD3F6;
+}
+
+.kasteelillus{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -250px;
+}
+.autoworkshop{
+    height: auto;
+    width: 400px; 
+    margin-left: 30%;
+}
+
+#section2{
+    width: 100vw;
+    background:#273582;
+    color: #F3D10E;
+    padding-top: 90px;
+    margin-top: 30vh;
+
+}
+.workshopnaam{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.workshopnaam p{
+    color: #F3D10E;
+}
+#uitleg{ 
+    max-width: 984px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#uitleg div{
+    margin-top: 10px;
+    float: right;
+}
+#uitleg .overdezeworkshop{
+    background:#F3D10E;
+    width: 800px;
+    height: 300px;
+} 
+
+.leerdoelen{
+    background: #8FD3F6;
+    width: 700px;
+    height: 400px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.leerdoelen li{
+    color: #273582;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.leerdoel{
+    float: left;
+}
+
+.tijdsduur p{
+    float: right;
+    width: 25px;
+    margin-right: 250px;
+    margin-top: 200px;
+}
+
+.leeftijd p{
+    float: right;
+    width: 80px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+#uitleg h1,p,li{
+    color: #273582;
+    padding-left: 20px;
+    padding: 15px;
+    
+}
+
+#tutorials{
+    padding-top: 600px;
+    max-width: 984px;
+    margin: 0 auto;
+    height: auto;
+
+}
+#tutorials div{
+    background: #8FD3F6;
+    width: 750px;
+    height: 400px;
+    margin-top: 100px;
+    float: left;
+}
+
+#tutorials .rechts{ 
+    float: right;
+}
+
+#tutorials div p{
+    color: #273582;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+
+.tutorialvideo{
+    width: 50%;
+    height: 60%;
+    margin-left: 20px;
+    float: left;
+    margin-top: 50px;
+}
+
+#tutorials h3{
+    color: #273582;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+}
+#tutorials .rechts h3{
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.rechts p{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+.tutorialvideorechts{
+    width: 50%;
+    height: 60%;
+    margin-right: 20px;
+    float: right;
+    margin-top: 50px;
+}
+
+
+.lesmateriaal{
+    margin-top: 20px;
+}
+
+.knop{
+    width: 984px;
+    float: left;
+    
+}
+
+.editor{ 
+    text-decoration: none;
+    font-family: 'variex', sans-serif;
+    text-align: center;
+    width: 250px;
+    background: #8FD3F6;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.downloadknop{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.kindereninklaslokaal{
+    width: 100%;
+    height: 25%;
+}
+
+.uitlegworkshop{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 2em;
+
+}
+
+.uitlegonzevisie{
+    margin-left: 20%;
+    margin-top: -200px;
+    background-color: rgb(243, 209, 14);
+    color: rgb(39, 53, 130);
+    position: absolute;
+}
+
+.uitlegonzevisie h1{
+    padding-top: 20px;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.uitlegonzevisie p{
+    margin-left: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+}
+
+.ontdek{
+    position: absolute;
+    margin-top: -600px;
+    color: rgb(39, 53, 130);
+    margin-left: 20%;
+    width: 400px;
+    font-size: 200px;
+}
+
+#workshops {
+    max-width: 984px;
+    margin: 0 auto;
+    padding-bottom: 250px;
+    height: auto;
+    color: #273582;
+    padding-top: 150px;
+}
+
+#workshops div {
+    width: 235px;
+    height: 244px;
+    background-color: #273582;
+    padding: 20px 45px 20px 25px;
+    margin-top: 30px;
+    margin-right: 34px;
+    float: left;
+}
+
+#workshops .right-div {
+    margin-right: 0px;
+}
+
+#workshops img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#workshops h3,h4 {
+    color: #F3D10E;
+}
+
+#workshops h4 {
+    font-family: 'niveau-grotesk', sans-serif;
+}
+
+#workshops p {
+    margin-top: 10px;
+    color: #273582;
+}
+
+#workshops #vluchtbolide {
+    width: 575px;
+    background-image: url(../img/workshop-car@2x.png);
+    background-size: auto;
+}
+
+footer {
+    margin-top: 200px;
+    background: #F3D10E;
+    width: 100%;
+    height: 150px;
+}
+
+.inhoudfooter{
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer p{
+    text-align: right;
+    height: 40px;
+    margin-top: -50px;
+    margin-right: 150px;
+}
+
+.footerlogo{
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
